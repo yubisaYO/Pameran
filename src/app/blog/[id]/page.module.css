@@ -1,0 +1,38 @@
+.container {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.topContent {
+  display: flex;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+  height: 300px;
+}
+
+.profil {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.img {
+  border-radius: 100%;
+}
+
+.bottomContent {
+  text-align: justify;
+  margin-bottom: 100px;
+}
